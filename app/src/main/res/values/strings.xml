@@ -3,4 +3,6 @@
     <string name="home">Home</string>
     <string name="explore">Explore</string>
     <string name="profile">Profile</string>
+    <string name="dogs_200">Dogs (200)</string>
+    <string name="cats_2">Cats(2)</string>
 </resources>

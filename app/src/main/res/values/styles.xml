@@ -6,6 +6,27 @@
         <item name="android:gravity">center</item>
         <item name="android:button">@null</item>
         <item name="android:minHeight">0dp</item>
+        <item name="android:textColor">@drawable/states_radiobutton_categories</item>
+    </style>
+
+    <style name="NavBar" parent="Theme.CatsList">
+        <item name="itemTextColor">@drawable/states_nav_bar</item>
+        <item name="itemIconTint">@drawable/states_nav_bar</item>
+    </style>
+
+    <style name="BrandName" parent="Theme.CatsList">
+        <item name="android:textColor">@color/dark_grey</item>
+        <item name="android:textSize">14sp</item>
+        <item name="itemIconTint">@drawable/states_nav_bar</item>
+    </style>
+
+    <style name="ItemName" parent="Theme.CatsList">
         <item name="android:textColor">@color/line_grey</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="roundedImageViewRounded" parent="Theme.CatsList">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">20%</item>
     </style>
 </resources>

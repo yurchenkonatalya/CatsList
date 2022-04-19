@@ -35,7 +35,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-         />
+        style="@style/NavBar"/>
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragment_container"
@@ -47,7 +47,9 @@
         app:layout_constraintBottom_toTopOf="@+id/bottom_navigation"
         app:defaultNavHost="true"
         android:name="androidx.navigation.fragment.NavHostFragment"
-        app:navGraph="@navigation/nav_graph"/>
+        app:navGraph="@navigation/nav_graph"
+
+        />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

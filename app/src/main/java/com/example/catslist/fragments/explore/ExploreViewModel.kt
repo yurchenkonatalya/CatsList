@@ -1,8 +1,7 @@
-package com.example.catslist.fragments.home
+package com.example.catslist.fragments.explore
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.catslist.db.RoomItem
 import com.example.catslist.model.CATEGORY_1
 import com.example.catslist.model.HomeRepository
 import com.example.catslist.model.HomeRepositoryDataResponse
@@ -13,14 +12,12 @@ import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 @HiltViewModel
-class HomeViewModel @Inject constructor(
+class ExploreViewModel @Inject constructor(
     private val repository: HomeRepository
 ) : ViewModel() {
     val data: MutableStateFlow<HomeRepositoryDataResponse?> = MutableStateFlow(null)
 
     private var workActive = false
-
-    var activeCategory = CATEGORY_1
 
     init {
         loadData()

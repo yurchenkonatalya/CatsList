@@ -13,13 +13,13 @@
         android:layout_marginTop="15dp"
         android:layout_height="40dp"
         android:background="@drawable/background_radiogroup_categories"
-        android:checkedButton="@id/btnChartMin"
+        android:checkedButton="@id/btnCategory1"
         android:orientation="horizontal"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <androidx.appcompat.widget.AppCompatRadioButton
-            android:id="@+id/btnChartMin"
+            android:id="@+id/btnCategory1"
             style="@style/RadioButtonCategory"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -28,7 +28,7 @@
             tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
 
         <androidx.appcompat.widget.AppCompatRadioButton
-            android:id="@+id/btnChartHour"
+            android:id="@+id/btnCategory2"
             style="@style/RadioButtonCategory"
             android:layout_width="0dp"
             android:layout_height="match_parent"

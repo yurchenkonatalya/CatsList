@@ -36,7 +36,9 @@
     </style>
 
     <style name="searchText" parent="Theme.CatsList">
-        <item name="android:textColor">@color/line_grey</item>
+        <item name="android:textColorHint">@color/line_grey</item>
+        <item name="android:textColor">@color/dark_grey</item>
+        <item name="android:hint">Search...</item>
         <item name="android:textSize">14sp</item>
     </style>
 </resources>

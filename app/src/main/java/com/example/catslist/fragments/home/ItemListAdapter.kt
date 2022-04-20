@@ -14,14 +14,6 @@ class ItemListAdapter(
 
 ) : ListAdapter<RoomItem, ItemListAdapter.ItemListViewHolder>(ItemListComparator) {
 
-    interface ItemClickListener {
-        fun onClick(adId: Long)
-    }
-
-    interface BottomButtonRetryClickListener {
-        fun onClick()
-    }
-
     class ItemListViewHolder(val binding: FrameItemCardBinding) : RecyclerView.ViewHolder(binding.root)
 
 
